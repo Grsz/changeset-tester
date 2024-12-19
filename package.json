@@ -1,18 +1,7 @@
 {
   "private": true,
-  "scripts": {
-    "build": "turbo run build",
-    "clean": "turbo run clean",
-    "dev": "turbo run dev",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "lint": "turbo run lint",
-    "test": "turbo run test",
-    "typecheck": "turbo run typecheck"
-  },
   "devDependencies": {
-    "@changesets/cli": "^2.27.11",
-    "prettier": "^3.2.5",
-    "turbo": "^2.3.3"
+    "@changesets/cli": "^2.27.11"
   },
   "packageManager": "pnpm@8.15.6",
   "engines": {
