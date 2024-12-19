@@ -6,7 +6,7 @@ permissions:
 on:
   push:
     tags:
-      - '**test**.**.**'
+      - 'test**.**.**'
 
 # concurrency: ${{ github.workflow }}-${{ github.ref }}
 
