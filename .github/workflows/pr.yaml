@@ -32,6 +32,6 @@ jobs:
           fetch-depth: 0
 
       - run: echo ${{ github.ref_name }}
-      - run: echo ${{ github.github.event.pull_request.head.ref }}
-      - name: Setup
-        uses: ./.github/actions/setup
+      - run: echo ${{ github.head_ref }}
+      - run: echo ${{ github.event.pull_request.head.ref }}
+
